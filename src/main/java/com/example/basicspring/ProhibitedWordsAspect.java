@@ -35,7 +35,7 @@ public class ProhibitedWordsAspect {
                 }
             }
 
-            if (bannedCount > 3) {
+            if (bannedCount >= 3) {
                 return "Advertencia: El mensaje contiene demasiadas palabras prohibidas.";
             }
 
